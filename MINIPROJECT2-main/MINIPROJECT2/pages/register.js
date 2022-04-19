@@ -53,6 +53,7 @@ export default function Register({ token }) {
           onChange={(e) => setName(e.target.value)}
           className={styles.input}
           placeholder="NAME">
+            
           </input>
         <input
           onChange={(e) => setTelephone(e.target.value)}
