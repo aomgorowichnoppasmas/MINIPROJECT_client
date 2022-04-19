@@ -55,7 +55,7 @@ const Shop = ({ token }) => {
                 <div key={item.id}>
                   <img
                     className={styles.productImage}
-                    src={`image/guns/${item.id}.jpg`}
+                    src={`image/knife/${item.id}.jpg`}
                   ></img>
                   <div className={styles.productDetial}>
                     <p className={styles.productName}>{item.productName}</p>

@@ -38,21 +38,22 @@
 }
 
 .boxmenu {
-  margin-top: 3vh;
-  margin-right: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 30px;
 }
 
 .mainmenu {
   font-family: Arial, Helvetica, sans-serif;
-  width: 9vw;
-  font-size: 1.5rem;
+  font-size: 1rem;
   cursor: pointer;
-  background-color: rgb(255, 255, 255);
+  color: white;
 }
 
 .mainmenu:hover {
-  background-color: #00e1ff;
-  transform: translateY(4px);
+  color: gray;
 }
 
 
