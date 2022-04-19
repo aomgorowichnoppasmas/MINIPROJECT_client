@@ -1,0 +1,47 @@
+.title {
+  margin-top: 250px;
+  margin-left: 1vw;
+  font-size: 3rem;
+  color: #00ff08;
+}
+
+.textTitle{
+  text-align: center;
+  font-size: 2rem;
+  color: #ff0000;
+}
+
+.input {
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 2vh;
+  border-bottom: 2px solid #000000;
+  font-size: 1rem;
+}
+
+.loginButton {
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.loginButton:hover{
+  background-color: #00ff08;
+  transform: translateY(4px);
+}
+
+.registerButton {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 0.5vw 2vw 0.5vw 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.registerButton:hover{
+  background-color: #006eff;
+  transform: translateY(4px);
+}
